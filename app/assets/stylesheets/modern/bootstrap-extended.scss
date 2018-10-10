@@ -10,44 +10,44 @@
 // ================================================================================================
 
 // Core variables and mixins
-@import "bootstrap/functions";
-@import "bootstrap/mixins";
-@import "bootstrap-extended/mixins";
+@import "modern/bootstrap/functions";
+@import "modern/bootstrap/mixins";
+@import "modern/bootstrap-extended/mixins";
 
 // Load variable overrides
-@import "core/variables/variables";
-@import "core/variables/components-variables";
+@import "modern/core/variables/variables";
+@import "modern/core/variables/components-variables";
 
 // Overrides user variable
 @import "modern/variables/variables";
 @import "modern/variables/components-variables";
 
 // // Core CSS
-@import "bootstrap-extended/reboot";
-@import "bootstrap-extended/type";
-@import "bootstrap-extended/code";
-@import "bootstrap-extended/grid";
-@import "bootstrap-extended/tables";
-@import "bootstrap-extended/forms";
-@import "bootstrap-extended/buttons";
+@import "modern/bootstrap-extended/reboot";
+@import "modern/bootstrap-extended/type";
+@import "modern/bootstrap-extended/code";
+@import "modern/bootstrap-extended/grid";
+@import "modern/bootstrap-extended/tables";
+@import "modern/bootstrap-extended/forms";
+@import "modern/bootstrap-extended/buttons";
 
 // // Components
-@import "bootstrap-extended/animation";
-@import "bootstrap-extended/dropdown";
-@import "bootstrap-extended/navbar";
-@import "bootstrap-extended/card";
-@import "bootstrap-extended/breadcrumb";
-@import "bootstrap-extended/pagination";
-@import "bootstrap-extended/badge";
-@import "bootstrap-extended/nav";
-@import "bootstrap-extended/alert";
-@import "bootstrap-extended/media";
-@import "bootstrap-extended/progress";
-@import "bootstrap-extended/list-group";
+@import "modern/bootstrap-extended/animation";
+@import "modern/bootstrap-extended/dropdown";
+@import "modern/bootstrap-extended/navbar";
+@import "modern/bootstrap-extended/card";
+@import "modern/bootstrap-extended/breadcrumb";
+@import "modern/bootstrap-extended/pagination";
+@import "modern/bootstrap-extended/badge";
+@import "modern/bootstrap-extended/nav";
+@import "modern/bootstrap-extended/alert";
+@import "modern/bootstrap-extended/media";
+@import "modern/bootstrap-extended/progress";
+@import "modern/bootstrap-extended/list-group";
 
 // // Components w/ JavaScript
-@import "bootstrap-extended/modal";
-@import "bootstrap-extended/popover";
+@import "modern/bootstrap-extended/modal";
+@import "modern/bootstrap-extended/popover";
 
 // // Utility classes
-@import "bootstrap-extended/utilities";
+@import "modern/bootstrap-extended/utilities";

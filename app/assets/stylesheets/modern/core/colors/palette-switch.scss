@@ -25,8 +25,8 @@
 // Overrides user variable
 @import "modern/core/colors/palette-variables";
 
-@import "../../bootstrap/mixins/_gradients";
-@import "../../bootstrap/mixins/gradients";
+@import "modern/bootstrap/mixins/_gradients";
+@import "modern/bootstrap/mixins/gradients";
 
 @each $color_name, $color in $colors {
   @each $color_type, $color_value in $color {

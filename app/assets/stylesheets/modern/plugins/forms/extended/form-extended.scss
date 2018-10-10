@@ -1,11 +1,11 @@
 // Core variables and mixins
-@import "../../../bootstrap/functions";
-@import "../../../bootstrap/variables";
-@import "../../../bootstrap/mixins";
+@import "modern/bootstrap/functions";
+@import "modern/bootstrap/variables";
+@import "modern/bootstrap/mixins";
 
 // Core variables and mixins overrides
-@import "../../../core/variables/variables";
-@import "../../../core/variables/components-variables";
+@import "modern/core/variables/variables";
+@import "modern/core/variables/components-variables";
 
 // Overrides user variable
 @import "modern/variables/variables";

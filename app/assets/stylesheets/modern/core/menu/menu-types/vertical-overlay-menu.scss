@@ -11,20 +11,20 @@
 ==========================================================================================*/
 
 // Core variables and mixins
-@import "../../../bootstrap/functions";
-@import "../../../bootstrap/mixins";
-@import "../../../bootstrap-extended/mixins";
+@import "modern/bootstrap/functions";
+@import "modern/bootstrap/mixins";
+@import "modern/bootstrap-extended/mixins";
 
 // Core variables and mixins overrides
-@import "../../variables/variables";
-@import "../../variables/components-variables";
+@import "modern/variables/variables";
+@import "modern/variables/components-variables";
 
 // Overrides user variable
 @import "modern/variables/variables";
 @import "modern/variables/components-variables";
 
 // Import first main menu mixin
-@import "../../mixins/main-menu-mixin";
+@import "modern/core/mixins/main-menu-mixin";
 
 // Vertical Overlay Menu
 //=========================

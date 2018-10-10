@@ -1,19 +1,19 @@
 // // Core variables and mixins
 // Core variables and mixins
-@import "../../bootstrap/functions";
-@import "../../bootstrap/mixins";
-@import "../../bootstrap-extended/mixins";
+@import "modern/bootstrap/functions";
+@import "modern/bootstrap/mixins";
+@import "modern/bootstrap-extended/mixins";
 
 
 // Core variables and mixins overrides
-@import "../../core/variables/variables";
-@import "../../core/variables/components-variables";
+@import "modern/core/variables/variables";
+@import "modern/core/variables/components-variables";
 
 // Overrides user variable
 @import "modern/variables/variables";
 @import "modern/variables/components-variables";
 
-@import '../../bootstrap/buttons';
+@import 'modern/bootstrap/buttons';
 
 .fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead{
   border-color: lighten($primary,5%);
